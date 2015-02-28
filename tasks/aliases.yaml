@@ -26,6 +26,20 @@ build:
   - usemin
 
 publish:
+  - clean:build
+  - jade
+  - stylus 
+  - autoprefixer
+  - copy:dist
+  - useminPrepare
+  - concat
+  - cssmin
+  - uglify
+  - imagemin
+  - svgmin
+  - htmlmin
+  - rev
+  - usemin
   - gh-pages
 
 test:
