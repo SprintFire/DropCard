@@ -1,5 +1,6 @@
 node_modules
 dist
 .tmp
+.grunt
 .DS_Store
 app/bower_components
