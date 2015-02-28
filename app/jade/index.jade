@@ -1,0 +1,33 @@
+extends /layouts/_default
+
+block head
+  title Idea Starter - Bringing Future Innovators Together
+
+block content
+
+  // #home-image
+  section#home-image
+    .container
+      .row
+        .col-md-8.col-md-offset-2.text-center
+          h1 Bringing Future Innovators Together
+          h3
+            | We bring together passionate students from all backgrounds to educate and inspire the 'next big thing'.
+
+    // #signup
+    section#signup.text-center
+      .container
+        .row
+          .col-md-8.col-md-offset-2
+            form(action='http://marketing.identitysquare.com/t/i/s/jrwkd/', method='post')
+              .row
+                .col-md-8.col-md-offset-2
+                  .input-group
+                    input.form-control(type='text', name='cm-jrwkd-jrwkd', placeholder='Enter Your Email Address...')
+                    span.input-group-btn
+                      button.btn.btn-wesavvy(type='submit') Join Network
+            p 
+              | Join our multidisciplinary startup network to inspire, educate and empower individuals, teams and communities. 
+              | Share ideas, form teams, get mentorship and launch successful startups.
+          
+
