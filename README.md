@@ -1,1 +1,1 @@
-# DanielPaul.me
+# Idea Starter
