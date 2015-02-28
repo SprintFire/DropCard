@@ -1,6 +1,11 @@
 {
   "name": "idea-starter",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Public website for Idea Starter.",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/IdeaStarter/website.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
