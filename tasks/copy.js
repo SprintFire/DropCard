@@ -14,7 +14,8 @@ module.exports = {
         '*.{ico,txt}',
         '.htaccess',
         'images/{,*/}*.{jpg,jpeg,png,webp,gif,svg}',
-        'styles/fonts/*'
+        'styles/fonts/*',
+        'CNAME'
       ]
     }, {
       expand: true,

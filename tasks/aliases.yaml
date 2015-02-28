@@ -25,6 +25,9 @@ build:
   - rev
   - usemin
 
+publish:
+  - gh-pages
+
 test:
   - clean:server
   - jade

@@ -5,9 +5,9 @@ header#top(role='banner')
       .navbar-header
         button.navbar-toggle.collapsed(type='button')&attributes({'data-toggle': 'collapse', 'data-target': '.navbar-collapse'})
           span.sr-only Toggle Navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
 
         a.navbar-brand(href='#')
           img(src='/images/logo.png' alt='Idea Starter' width='220px')
@@ -16,8 +16,11 @@ header#top(role='banner')
         ul.nav.navbar-nav.navbar-right
           li: a(href='http://marketing.identitysquare.com/h/i/29A3A47F36690B95' title='Join our network' target='_blank') Join Network
           li: a(href='https://www.facebook.com/pages/Idea-Starter/1375947472725385' title='Like us on Facebook' target='_blank') 
-            i.fa.fa-facebook
+            i.fa.fa-facebook.hidden-xs
+            span.visible-xs-inline Like us on Facebook
           li: a(href='https://instagram.com/ideastarter' title='Follow us on Instagram' target='_blank') 
-            i.fa.fa-instagram
+            i.fa.fa-instagram.hidden-xs
+            span.visible-xs-inline Follow us on Instagram
           li: a(href='https://twitter.com/idea_starter' title='Follow us on Twitter' target='_blank') 
-            i.fa.fa-twitter
+            i.fa.fa-twitter.hidden-xs
+            span.visible-xs-inline Follow us on Twitter
