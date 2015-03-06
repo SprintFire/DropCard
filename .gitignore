@@ -4,3 +4,4 @@ dist
 .grunt
 .DS_Store
 app/bower_components
+Gruntfile.sublime-workspace
