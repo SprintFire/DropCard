@@ -1,0 +1,47 @@
+doctype html
+html(lang="en")
+  head
+
+    block head
+      title Idea Starter
+
+    include ../partials/_head
+
+  body
+    
+    // START header
+    include ../partials/_header
+    // END header
+
+
+    block content
+
+
+    // START footer
+    include ../partials/_footer
+    // END footer
+
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')
+    
+    // build:js /scripts/main.js
+    script(src='/scripts/main.js')
+    script(src='/scripts/tubular.js')
+    // endbuild
+
+    script.
+        jQuery(function ($) {
+            // if movile device
+            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+             // some code..
+            } else {
+              // $('#home-image').addClass('video');
+              // $('#home-image').tubular({videoId: 'yJVureVSe44', start: 5});
+            }
+          });
+
+    // Google Analytics
+    include ../partials/_GA
+
+

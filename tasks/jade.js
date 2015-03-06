@@ -8,7 +8,7 @@ module.exports = {
     files: [{
       expand: true,
       cwd: '<%= folders.app %>/jade',
-      src: ['index.jade'],
+      src: ['index.jade', 'about.jade'],
       dest: '.tmp/',
       ext: '.html'
     }],

@@ -1,0 +1,934 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"enc",
+				"encoded_bits"
+			],
+			[
+				"ori",
+				"original_bits"
+			],
+			[
+				"en",
+				"encoded_bits"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"find",
+				"findLetter"
+			],
+			[
+				"st",
+				"String"
+			],
+			[
+				"hu",
+				"HuffmanTree"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"all",
+				"all_email"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"list",
+				"list_file"
+			],
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"padidn",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"sti",
+				"stickToBreak"
+			],
+			[
+				"ran",
+				"random_length"
+			],
+			[
+				"get",
+				"getDraw"
+			],
+			[
+				"promot",
+				"promotion_bar_settings"
+			],
+			[
+				"plugin",
+				"pluginName"
+			],
+			[
+				"displ",
+				"display_count"
+			],
+			[
+				"random",
+				"randomSelect"
+			],
+			[
+				"dis",
+				"displayed_bar"
+			],
+			[
+				"promtion_bar",
+				"promotion_bar_settings"
+			],
+			[
+				"promotion",
+				"promotion_bar_settings"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"dev",
+				"devices"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ba",
+				"background_color"
+			],
+			[
+				"button",
+				"button_text_color"
+			],
+			[
+				"close",
+				"close_button"
+			],
+			[
+				"pro",
+				"promotion_bar_container"
+			],
+			[
+				"dispa",
+				"display_bar"
+			],
+			[
+				"get_fiel",
+				"get_field"
+			],
+			[
+				"displa",
+				"display_pages"
+			],
+			[
+				"inlin",
+				"inline-table"
+			],
+			[
+				"inline",
+				"inline-table"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"call",
+				"callback_test"
+			],
+			[
+				"Pro",
+				"Promotion_Bar"
+			],
+			[
+				"sort",
+				"sortByUnique"
+			],
+			[
+				"pi",
+				"println"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"in",
+				"inner"
+			],
+			[
+				"sw",
+				"swaped"
+			],
+			[
+				"user",
+				"userAverage"
+			],
+			[
+				"total",
+				"totalRatings"
+			],
+			[
+				"usr",
+				"usersMovies"
+			],
+			[
+				"movie",
+				"movieIDtoCompare"
+			],
+			[
+				"movi",
+				"movieIDtoCompare"
+			],
+			[
+				"movie1",
+				"movie1genre"
+			],
+			[
+				"mov",
+				"movie1"
+			],
+			[
+				"mo",
+				"movieID"
+			],
+			[
+				"tes",
+				"testInput"
+			],
+			[
+				"fin",
+				"findMovieAverage"
+			],
+			[
+				"ratings",
+				"ratingsInput"
+			],
+			[
+				"movies",
+				"moviesInput"
+			],
+			[
+				"aver",
+				"movieAverageRating"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"save",
+				"saveToFile"
+			],
+			[
+				"prin",
+				"println"
+			],
+			[
+				"pred",
+				"predictions"
+			],
+			[
+				"prog",
+				"progressPercentage"
+			],
+			[
+				"same",
+				"sameGenreMovies"
+			],
+			[
+				"filter",
+				"filterMoviesInSameGenre"
+			],
+			[
+				"tota",
+				"totalRating"
+			],
+			[
+				"Array",
+				"ArrayList"
+			],
+			[
+				"rat",
+				"ratingsTotal"
+			],
+			[
+				"toat",
+				"totalUsersCompared"
+			],
+			[
+				"avera",
+				"averageMovieRating"
+			],
+			[
+				"sum",
+				"sumX"
+			],
+			[
+				"sumX",
+				"sumX2"
+			],
+			[
+				"pre",
+				"prediction"
+			],
+			[
+				"predic",
+				"prediction"
+			],
+			[
+				"avae",
+				"averageR"
+			],
+			[
+				"bo",
+				"bottomEq"
+			],
+			[
+				"ave",
+				"averageY2"
+			],
+			[
+				"user1",
+				"user1AverageRating"
+			],
+			[
+				"sam",
+				"sameMovieId"
+			],
+			[
+				"users",
+				"usersRatings"
+			],
+			[
+				"has",
+				"hasSameMovies"
+			],
+			[
+				"rati",
+				"ratings"
+			],
+			[
+				"Arra",
+				"ArrayList"
+			],
+			[
+				"Stri",
+				"String"
+			],
+			[
+				"rated",
+				"ratedUsers"
+			],
+			[
+				"space",
+				"spaceSplit"
+			],
+			[
+				"inp",
+				"input2Array"
+			],
+			[
+				"spca",
+				"spaceSplit"
+			],
+			[
+				"size",
+				"sizein"
+			],
+			[
+				"new",
+				"newAlpha"
+			],
+			[
+				"encoded",
+				"encodedText"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"pri",
+				"printStack"
+			],
+			[
+				"Print",
+				"println"
+			],
+			[
+				"ava",
+				"average_rating"
+			],
+			[
+				"over",
+				"overall_total"
+			],
+			[
+				"dice",
+				"diceResult"
+			],
+			[
+				"num",
+				"number"
+			],
+			[
+				"sy",
+				"System"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"resul",
+				"results"
+			],
+			[
+				"sta",
+				"starting"
+			],
+			[
+				"term",
+				"terms"
+			],
+			[
+				"wh",
+				"wheat"
+			],
+			[
+				"moo",
+				"moon_distance"
+			],
+			[
+				"left",
+				"leftBTN"
+			],
+			[
+				"right",
+				"rightLED"
+			],
+			[
+				"righ",
+				"rightBTN"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"a",
+				"alt	Attr"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"curre",
+				"currency_html"
+			],
+			[
+				"downloa",
+				"download_link"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"",
+				"Bookmarks: Select All"
+			],
+			[
+				"i",
+				"File: New View into File"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"gst",
+			"zsh",
+			"pwd",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"gst"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Daniel/Library/Caches/Cleanup At Startup/Transmit/E3B6286D-EDE0-4B3C-95C9-CF9FDE3CC03B/main.css",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS211/Lab 4/Node.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS211/Lab 4/Tree.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS211/Lab 4/Huffman.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS211/Lab 3/huffman.java",
+		"/Users/Daniel/Library/Caches/Cleanup At Startup/Transmit/C0929933-6669-4643-94F9-E7B2111EEDF5/index.html",
+		"/Users/Daniel/Sites/localhost/testing/lab3.asm",
+		"/Users/Daniel/Downloads/testing/shakespeare/jade/partials/header.html",
+		"/Users/Daniel/Downloads/testing/shakespeare/jade/partials/footer.html",
+		"/Users/Daniel/Downloads/testing/shakespeare/jade/partials/cweb",
+		"/Users/Daniel/Downloads/testing/bin/lisa",
+		"/Users/Daniel/Downloads/testing/bin/l",
+		"/Users/Daniel/Downloads/testing/bin/d",
+		"/Users/Daniel/Sites/Idea Starter/app/jade/partials/footer.jade",
+		"/Users/Daniel/Sites/Idea Starter/app/jade/partials/header.jade",
+		"/Users/Daniel/Sites/Idea Starter/package.json",
+		"/Users/Daniel/Sites/Idea Starter/app/jade/layouts/_default.jade",
+		"/Applications/AMPPS/extra/include/libpq-fe.h",
+		"/Users/Daniel/Sites/Idea Starter/app/styles/main.styl",
+		"/Users/Daniel/Sites/Idea Starter/tasks/aliases.yaml",
+		"/Users/Daniel/Sites/Idea Starter/tasks/usemin.js",
+		"/Users/Daniel/Sites/Idea Starter/app/jade/index.jade",
+		"/Users/Daniel/Sites/Idea Starter/app/scripts/tubular.js",
+		"/Users/Daniel/Sites/WeSavvy/wp-content/themes/wesavvy/index.html",
+		"/Users/Daniel/Sites/WeSavvy/wp-content/themes/wesavvy/style.css",
+		"/Users/Daniel/liz/Car.java",
+		"/Users/Daniel/liz/BankLoan.java",
+		"/Users/Daniel/liz/BankAccount.java",
+		"/Users/Daniel/liz/Card.java",
+		"/Users/Daniel/liz/liz.java",
+		"/Users/Daniel/liz/main.java",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/app/jade/partials/header.jade",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/app/jade/layouts/_default.jade",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/app/scripts/main.js",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/app/styles/main.styl",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/app/jade/about.jade",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/app/jade/index.jade",
+		"/Users/Daniel/Sites/localhost/EmailMatch/find.php",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS211/Lab 2/stick.java",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/app/jade/partials/footer.jade",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/node_modules/grunt-contrib-connect/node_modules/connect/examples/basicAuth.js",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/bower.json",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/tasks/aliases.yaml",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS211/Lab1/carlo.java",
+		"/Users/Daniel/Desktop/teset.html",
+		"/Users/Daniel/Sites/Personal/DanielPaul.me/index.jade",
+		"/Users/Daniel/Library/Caches/Cleanup At Startup/Transmit/2518E384-F539-4CEC-A35A-BB463B915809/upme-get-avatar.php",
+		"/Users/Daniel/Sites/hmtb/public/js/app.js",
+		"/Users/Daniel/Sites/localhost/wp/wp-content/plugins/promotion-bar/public/img/close-icon.svg",
+		"/Users/Daniel/Sites/localhost/wp/wp-content/plugins/promotion-bar/includes/class-promotion-bar-deactivator.php",
+		"/Users/Daniel/Sites/localhost/wp/wp-content/plugins/promotion-bar/includes/class-promotion-bar-activator.php",
+		"/Users/Daniel/Sites/localhost/wp/wp-content/plugins/promotion-bar/public/class-plugin-name-public.php",
+		"/Users/Daniel/Sites/localhost/wp/wp-content/plugins/promotion-bar/includes/class-plugin-name-loader.php",
+		"/Users/Daniel/Sites/localhost/wp/wp-content/plugins/promotion-bar/includes/class-plugin-name.php",
+		"/Users/Daniel/Sites/localhost/wp/wp-content/plugins/promotion-bar/includes/class-plugin-name-activator.php",
+		"/Users/Daniel/Sites/localhost/wp/wp-content/plugins/promotion-bar/public/partials/plugin-name-public-display.php",
+		"/Users/Daniel/Downloads/Hello-Bar-Alternative-master/css/TopSlider.css",
+		"/Users/Daniel/Sites/Personal/cookieinfo.js/Cookie Info/CookieInfo Wordpress Version/CookieInfo/cookieinfo.php",
+		"/Users/Daniel/Sites/Personal/cookieinfo.js/Cookie Info/CookieInfo Wordpress Version/CookieInfo/inc/class.settings-api.php",
+		"/Users/Daniel/Downloads/cookie.html",
+		"/Users/Daniel/Sites/Side Projects/Rendezvous Game/RendezvousGame.GitHub.io/index.html",
+		"/Users/Daniel/Sites/Side Projects/Rendezvous Game/Rendezvous/index.html",
+		"/Users/Daniel/Downloads/slidershock_jquery_version_free_4529810349841520149841025411/css/slider_multiple.css",
+		"/Users/Daniel/Sites/StudyNotes.ie Jan Flywheel Backup - ex:uploads/wp-content/plugins/jetpack/modules/related-posts/jetpack-related-posts.php",
+		"/Users/Daniel/Library/Caches/Cleanup At Startup/Transmit/C7F82A8B-68B5-4800-8B5D-E981C315B208/.htaccess",
+		"/Users/Daniel/Sites/GrindsAdvisor.ie/wp-content/themes/advisor/style.css",
+		"/Users/Daniel/Downloads/studynotes.sql",
+		"/Users/Daniel/Sites/localhost/StudyNotes.ie/wp-content/themes/studynotes.ie/js/magic.js",
+		"/Users/Daniel/Sites/localhost/BookDirecto/HTML/index.php",
+		"/Users/Daniel/Sites/localhost/StudyNotes.ie/wp-content/themes/studynotes.ie/footer.php",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Jan 2015 Exam Practice/five.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Jan 2015 Exam Practice/four.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/SortingAlgorithms/bubble.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Jan 2015 Exam Practice/two.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Jan 2015 Exam Practice/one.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/README.md",
+		"/Users/Daniel/Desktop/Link.java",
+		"/Users/Daniel/Desktop/bubble sort.java",
+		"/Users/Daniel/Desktop/selection.java",
+		"/Users/Daniel/Desktop/insertion.java",
+		"/Users/Daniel/Desktop/stack.java",
+		"/Users/Daniel/Desktop/queue.java",
+		"/Users/Daniel/Desktop/pqueue.java",
+		"/Users/Daniel/Desktop/teset.java",
+		"/Users/Daniel/Desktop/LinkedList.java",
+		"/Users/Daniel/Desktop/one.java",
+		"/Users/Daniel/Desktop/two.java",
+		"/Users/Daniel/Desktop/three.java",
+		"/Users/Daniel/Desktop/five.java",
+		"/Users/Daniel/Sites/Personal/cookieinfo.js/Cookie Info/CookieInfo Wordpress Version/CookieInfo/js/CookieInfo.js",
+		"/Users/Daniel/Sites/localhost/testing/emails_get.php",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/PredictRatings.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/Movies.java",
+		"/Users/Daniel/Downloads/studynotes-ie-2014-12-15-11-44-39.sql",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/Utils.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/Users.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/Levin/Movies.txt",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/Levin/levin.java",
+		"/Users/Daniel/Sites/Personal/cookieinfo.js/Cookie Info/CookieInfo jQuery Version/CookieInfo jQuery Plugin/CookieInfo/CookieInfo.js",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/AveragePrediction.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/FileIO.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Triangles/src/test.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/README.md",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/data/Movies.txt",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/predict2.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/predict.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/Test.txt",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/AIB Data Lab/Ratings.txt",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/Lab 10/largestNumber.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/Lab 10/TriangularNumber.java",
+		"/Users/Daniel/Dropbox/College/Lisa/Year 1 Sem 1/Translator/BlackTalk.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/Lab 9/linkedList.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/Lab 9/Queue.java",
+		"/Users/Daniel/Library/Caches/Cleanup At Startup/Transmit/19892A21-4370-47CB-A749-F9E793A4A61A/.htaccess",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Stacks/reverseWord.java",
+		"/Users/Daniel/Sites/Clients/Prospr Health/Email/email_lite.html",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Stacks/checkPalindrome.java",
+		"/Users/Daniel/Sites/BookDirecto/BookDirecto Coming Soon/index.html",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Stacks/Using Arrays/reverseWord.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Stacks/Using Arrays/Stack.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/HackerRank/Print_s_n/Solution.java",
+		"/Users/Daniel/Sites/Side Projects/EdChat.ie/index.html",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/Lab 8/one.java",
+		"/Users/Daniel/Dropbox/College/CS Labs/Year 2/CS210/Lab 8/two.java",
+		"/Users/Daniel/Downloads/Sort.java",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/dice/DiceMonteCarlo.java",
+		"/Users/Daniel/Downloads/centrefo_CMEmodl.sql",
+		"/Users/Daniel/Documents/Maynooth Git/CS210/Top Rated Movies/FindTopMovies.java"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"'",
+			"",
+			"ourmanna_wp221",
+			"<open files>",
+			"",
+			"success.html.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"growTree",
+			"icon",
+			"url",
+			"wesavv",
+			"10px",
+			"12px",
+			"2E3037",
+			"FC5F45",
+			"FC5F",
+			"playVideo",
+			"start",
+			"#4c9ef1",
+			"get_promotion_bars",
+			"font",
+			"ui-load.js",
+			"chart.js",
+			"promotion_bar_close",
+			"plugin_name",
+			"$plugin_name",
+			"$plugin__name",
+			"plugin_name",
+			"star",
+			"rating",
+			"`",
+			"a href=\"",
+			"',	'",
+			"',",
+			"findSameMovies",
+			"system.out",
+			"userRatings",
+			"system.out.println",
+			"system.out.print",
+			"system.",
+			"moodle.centreformidwiferyeducation.ie",
+			"script",
+			"<script",
+			"script",
+			"$source",
+			"referer",
+			"ob_start",
+			"html5wp_excerpt",
+			"ourmanna_wp",
+			"#home h1",
+			"blockquote",
+			"#home",
+			"contact-btn",
+			"directo",
+			"direc",
+			"cookieinfo",
+			"'//:",
+			"\"//:",
+			"//:",
+			"body.view-campaigns",
+			"preview_tr_id",
+			"table tr.item",
+			"adAccountID",
+			"'html_code' => ''",
+			"html_code => '",
+			"html_code => ''",
+			"Mexican Peso",
+			"New Zealand Dollar",
+			"','offset' =>",
+			"totalSpendCurrency",
+			"$",
+			"/reports",
+			"campaigns/reports",
+			"campgains/reports",
+			"$title",
+			"export",
+			"work",
+			"$_get",
+			"AdCampaigns",
+			"buildSpecForAudience",
+			"geo_locations",
+			"adworkemployer",
+			"employ",
+			"adworkposition",
+			"adworkemployer",
+			"word_postions",
+			"family_statuses"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" ",
+			"",
+			"moo.centreformidwiferyeducation.ie",
+			"<open files>",
+			"",
+			"', 'html_code' => '', 'offset' =>",
+			"reports"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"project": "Gruntfile.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"inde",
+				"/Volumes/Daniel.PropelAd/dashboard/index.php"
+			],
+			[
+				"fa",
+				"webroot/css/font-awesome.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 147.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
