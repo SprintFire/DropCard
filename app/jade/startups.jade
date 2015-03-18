@@ -6,19 +6,39 @@ block head
 
 block display_title
   h1 Supporters &amp; Startups
+  h3 Our incredible supporters and network
 
 
 block content
 
-  h2 About Our Hackathon
-  p Join us in our fun filled weekend event to build your startup in just 24 hours. Form or join a team, validate your idea, market research and build a minimal viable product. Demo your prototypes and receive valuable feedback from a panel of experts. Winners announced and new friends made!
-  p Stay tuned for updates on our planned event!
+  h3.text-center Supporters &amp; Sponsors
+
+  - var supporters = {'mu.png':'Maynooth University', 'eden.png':'EDEN', 'minds.png':'MINDS soc', 'amazon.png':'Amazon', 'isqre.png':'Identity Square', 'coderdojo.png':'CoderDojo'};
+
+  ul.logos.text-center
+    each name, logo in supporters
+      li
+        img(src="images/logos/" + logo alt=name)
+
+  hr
+
+  h3.text-center Startups
+
+  - var startups = {'studynotes.png':'StudyNotes.ie', 'grindsadvisor.png':'Grinds Advisor', 'kompass.png':'Kompass', 'owlise.png':'Owlise'};
+
+  ul.logos.text-center
+    each name, logo in startups
+      li
+        img(src="images/logos/" + logo alt=name)
 
 
-block sidebar
-  
-  .widget
-    iframe(width="360" height="203" src="https://www.youtube.com/embed/yDc4zjAdp5A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+  hr
 
-          
+  h3.text-center Honors &amp; awards won by our members
 
+  - var awards = {'imaginecup.png':'Microsoft Imagine Cup', 'startupweekend.png':'Startup Weekend', 'hackmakebank.png':'Hack Make The Bank', 'challengecup.png':'The Challenge Cup', 'studentent.png':'Student Entrepreneur Awards'};
+
+  ul.logos.text-center
+    each name, logo in awards
+      li
+        img(src="images/logos/" + logo alt=name)
