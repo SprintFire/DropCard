@@ -1,3 +1,5 @@
+- var lightbox = true
+
 extends /layouts/_fullwidth
 
 block head
@@ -13,32 +15,41 @@ block content
 
   h3.text-center Supporters &amp; Sponsors
 
-  - var supporters = {'mu.png':'Maynooth University', 'eden.png':'EDEN', 'minds.png':'MINDS soc', 'amazon.png':'Amazon', 'isqre.png':'Identity Square', 'coderdojo.png':'CoderDojo'};
+  - var supporters = {'mu':'Maynooth University', 'eden':'EDEN', 'minds':'NUIM MINDS soc', 'amazon':'Amazon', 'isqre':'Identity Square', 'coderdojo':'CoderDojo'};
 
   ul.logos.text-center
     each name, logo in supporters
       li
-        img(src="images/logos/" + logo alt=name)
+        if(logo == "mu" || logo == "isqre")
+          a(href="images/logos/zoom/" + logo + ".jpg" data-lightbox="supporters" data-title=name)
+            img(src="images/logos/" + logo + ".png" alt=name)
+        else
+          img(src="images/logos/" + logo + ".png" alt=name)
 
   hr
 
   h3.text-center Startups
 
-  - var startups = {'studynotes.png':'StudyNotes.ie', 'grindsadvisor.png':'Grinds Advisor', 'kompass.png':'Kompass', 'owlise.png':'Owlise'};
+  - var startups = {'studynotes':'StudyNotes.ie', 'grindsadvisor':'Grinds Advisor', 'kompass':'Kompass', 'owlise':'Owlise'};
 
   ul.logos.text-center
     each name, logo in startups
       li
-        img(src="images/logos/" + logo alt=name)
+        a(href="images/logos/zoom/" + logo + ".jpg" data-lightbox="startups" data-title=name)
+          img(src="images/logos/" + logo + ".png" alt=name)
 
 
   hr
 
   h3.text-center Honors &amp; awards won by our members
 
-  - var awards = {'imaginecup.png':'Microsoft Imagine Cup', 'startupweekend.png':'Startup Weekend', 'hackmakebank.png':'Hack Make The Bank', 'challengecup.png':'The Challenge Cup', 'studentent.png':'Student Entrepreneur Awards'};
+  - var awards = {'imaginecup':'Microsoft Imagine Cup', 'startupweekend':'Startup Weekend', 'hackmakebank':'Hack Make The Bank', 'challengecup':'The Challenge Cup', 'studentent':'Student Entrepreneur Awards'};
 
   ul.logos.text-center
     each name, logo in awards
       li
-        img(src="images/logos/" + logo alt=name)
+        img(src="images/logos/" + logo + ".png" alt=name)
+
+
+block styles
+  link(href='//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css', rel='stylesheet')

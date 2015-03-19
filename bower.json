@@ -1,10 +1,11 @@
 {
   "name": "idea-starter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     
     "jquery": "~2.1.1",
-    "bootstrap": "~3.3.2"
+    "bootstrap": "~3.3.2",
+    "lightbox2": "~2.7.1"
     
   },
   "devDependencies": {}
