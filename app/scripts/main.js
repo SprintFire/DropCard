@@ -12,4 +12,7 @@ jQuery(function ($) {
     }
   }
 
+  /* Contact email link */
+  $('a.email-link').attr("href", "mailto:team@ideastarter.co")
+
 });

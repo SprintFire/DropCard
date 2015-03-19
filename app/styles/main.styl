@@ -152,7 +152,41 @@ ul.logos
       max-height 70px
       margin 20px
 
+ul.social-links
+  list-style none
+  margin-top 40px
+  margin-left 0px
+  padding-left 0px
 
+  li
+    margin-bottom 0px
+    padding 10px 13px
+    padding-left 0px
+
+    -webkit-border-radius 50px
+    -moz-border-radius 50px
+    border-radius 50px
+
+    i.fa
+      margin-right 10px
+
+    a
+      color white
+      width 100%
+
+    a:hover
+      color white
+      text-decoration underline
+
+    a.facebook
+      background #3E588E
+
+    a.email
+      background yellow
+      color #1a1a1a
+
+    a.twitter
+      background #55ACEE
 
 .faq
   margin-top 50px
@@ -264,9 +298,28 @@ ul.logos
 #lightbox
   z-index 999999999
 
-#gmap_canvas img
-  max-width none !important
-  background none !important
+#gmap_wrapper
+  overflow hidden
+  height 320px
+  width 100%
+  background $darkBG
+  padding 10px
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  #gmap_canvas
+    height 300px
+    width 100%
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    img
+      max-width none !important
+      background none !important
+
 
 body.default #footer
   background #F2F2F2
