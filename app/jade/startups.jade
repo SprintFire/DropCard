@@ -21,7 +21,7 @@ block content
     each name, logo in supporters
       li
         if(logo == "mu" || logo == "isqre")
-          a(href="images/logos/zoom/" + logo + ".jpg" data-lightbox="supporters" data-title=name)
+          a(href="images/logos/" + logo + "_zoom.jpg" data-lightbox="supporters" data-title=name)
             img(src="images/logos/" + logo + ".png" alt=name)
         else
           img(src="images/logos/" + logo + ".png" alt=name)
@@ -40,7 +40,7 @@ block content
   ul.logos.text-center
     each name, logo in startups
       li
-        a(href="images/logos/zoom/" + logo + ".jpg" data-lightbox="startups" data-title=name)
+        a(href="images/logos/" + logo + "_zoom.jpg" data-lightbox="startups" data-title=name)
           img(src="images/logos/" + logo + ".png" alt=name)
 
 
