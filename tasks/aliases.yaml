@@ -25,6 +25,21 @@ build:
   - rev
   - usemin
 
+clean-build:
+  - clean:build
+  - jade
+  - stylus 
+  - autoprefixer
+  - copy:dist
+  - useminPrepare
+  - concat
+  - cssmin
+  - uglify
+  - imagemin
+  - svgmin
+  - htmlmin
+  - usemin
+
 publish:
   - clean:build
   - jade
