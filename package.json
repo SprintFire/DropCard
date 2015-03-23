@@ -4,7 +4,7 @@
   "description": "Public website for Idea Starter.",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/IdeaStarter/website.git"
+    "url" : "https://github.com/IdentitySquare/Idea-Starter.git"
   },
   "dependencies": {},
   "devDependencies": {
