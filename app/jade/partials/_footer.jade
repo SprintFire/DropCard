@@ -1,12 +1,16 @@
 footer#footer
+  
+  - var supporters = {'amazon':'Amazon', 'isqre':'Identity Square', 'wesavvy':'WeSavvy', 'younginsurers':'Young Insurers', 'eden':'EDEN', 'minds':'NUIM MINDS soc'};
 
-  #footer-content
+  section#sponsors
     .container
       .row
-        .col-md-10.col-md-offset-1.text-center
-          blockquote
-            q Your work is going to fill a large part of your life, and the only way to be truely satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.
-            footer Steve Jobs, Apple
+        .col-md-12.text-center
+          h3 Our Amazing Sponsors &amp; Supporters
+          ul.logos.text-center
+            each name, logo in supporters
+              li
+                img(src="images/logos/" + logo + ".png" style="max-height:50px" alt=name)
 
    #footer-copy
     .container

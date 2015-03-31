@@ -218,18 +218,10 @@ ul.social-links
       padding-left 5px
 
 
-
-#footer
-  position relative
-  z-index 99
-  color $darkBG
-  background yellow
-
-
 #home-image
   background #1a1a1a
   color white
-  padding 160px 0
+  padding 150px 0
   background url("/images/startup-meeting_bg.jpg") no-repeat center center fixed
   -webkit-background-size cover
   -moz-background-size cover
@@ -248,17 +240,24 @@ ul.social-links
     margin-top 20px
     font-size 20px
 
+  .fa
+    margin-right 10px
+
 
 .btn-wesavvy
   background yellow
   color $darkBG
 
 
+#sponsors
+  ul
+    margin-bottom 0px
+
 #signup
   margin 0px
   margin-top 80px
   margin-bottom -160px
-  background rgba(34,34,34,0.4)
+  background rgba(25,25,25,0.5)
 
   form
     margin-bottom 30px
@@ -280,8 +279,28 @@ ul.social-links
     font-size 14px
     color rgba(255,255,255,0.6)
 
+#quick-links
+  background yellow
+  color $darkBG
+
+  i.fa
+    font-size 60px
+  
+  h4
+    margin-top 30px
+    margin-bottom 10px
+  
+  p
+    margin-top 0px
+    font-size 12px
 
 #footer
+  position relative
+  z-index 99
+  color $darkBG
+  background #F2F2F2
+  border-top 1px solid #D5D5D5
+
   blockquote
     color $darkBG
     border 0px
@@ -321,11 +340,6 @@ ul.social-links
       background none !important
 
 
-body.default #footer
-  background #F2F2F2
-  border-top 1px solid #D5D5D5
-
-
 #footer-copy
   background #0E121C
   padding 30px 0
@@ -341,3 +355,14 @@ body.default #footer
     a
       color white
 
+
+ul.nav-tabs
+  li > a, li > a:hover, li > a:focus
+    border 0px
+    border-bottom 3px solid transparent
+    background transparent
+
+  li.active > a, li.active > a:hover, li.active > a:focus
+    background transparent
+    border 0px
+    border-bottom 3px solid yellow
