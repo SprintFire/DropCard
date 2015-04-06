@@ -120,7 +120,6 @@ p
 section
   padding 50px 0
   position relative
-  z-index 99
 
 section#title
   background yellow
@@ -296,7 +295,6 @@ ul.social-links
 
 #footer
   position relative
-  z-index 99
   color $darkBG
   background #F2F2F2
   border-top 1px solid #D5D5D5
@@ -311,11 +309,18 @@ ul.social-links
       display block
       margin-bottom 20px
 
-#lightboxOverlay
-  z-index 99999999
 
-#lightbox
-  z-index 999999999
+.modal-dialog
+  margin-top 80px
+
+.modal-body
+  img.logo
+    max-width 100%
+    margin-top 20px
+
+div.people
+  .col-md-4
+    margin-bottom 20px
 
 #gmap_wrapper
   overflow hidden
