@@ -1,6 +1,9 @@
 $darkBG = #0B141B
 blue = #4A8DF8
-yellow = #F5C13B
+yellow = #26C2BF
+
+
+
 
 // gradientColor1 = #53346D
 // gradientColor2 = #000000
@@ -11,8 +14,11 @@ yellow = #F5C13B
 // gradientColor1 = #3B9ACA
 // gradientColor2 = #050006
 
-gradientColor1 = #dc2430
-gradientColor2 = #7b4397
+// gradientColor1 = #dc2430
+// gradientColor2 = #7b4397
+
+gradientColor1 = #BE69D4
+gradientColor2 = #020002
 
 
 
@@ -22,9 +28,10 @@ gradientColor2 = #7b4397
 body
   // background #F8F9FB
   height 100%
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right bottom, gradientColor1, gradientColor2); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(right bottom, gradientColor1, gradientColor2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #020002; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #020002 0%, #3b2bb1 70%, #be69d4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #020002 0%,#3b2bb1 70%,#be69d4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #020002 0%,#3b2bb1 70%,#be69d4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   font-family: 'Nunito', sans-serif;
   font-size 14px
   -webkit-font-smoothing subpixel-antialiased
@@ -51,6 +58,9 @@ p
   .navbar-brand
     margin-top -7px
     margin-right 10px
+
+    img
+      width: 20%;
 
   .navbar
     border-bottom 0px
@@ -286,6 +296,10 @@ ul.social-links
   img
     width: 100%
 
+  .col-md-7.text-center
+    padding-top 100px
+    padding-right 80px
+
 
 .btn-wesavvy
   background yellow
@@ -399,7 +413,8 @@ div.people
   small
     font-size 12px
     color #999999
-    margin-bottom 20px
+    margin-bottom 10px
+    margin-top 10px
     display block
 
     a
