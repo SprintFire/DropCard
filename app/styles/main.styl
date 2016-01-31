@@ -2,13 +2,33 @@ $darkBG = #0B141B
 blue = #4A8DF8
 yellow = #F5C13B
 
+// gradientColor1 = #53346D
+// gradientColor2 = #000000
+
+// gradientColor1 = #6441A5
+// gradientColor2 = #2a0845
+
+// gradientColor1 = #3B9ACA
+// gradientColor2 = #050006
+
+gradientColor1 = #dc2430
+gradientColor2 = #7b4397
+
+
+
+
+
 
 body
-  background #F8F9FB
+  // background #F8F9FB
+  height 100%
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right bottom, gradientColor1, gradientColor2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(right bottom, gradientColor1, gradientColor2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Nunito', sans-serif;
   font-size 14px
   -webkit-font-smoothing subpixel-antialiased
-  margin-top 50px
+  // margin-top 50px
 
 
 h1, h2, h3, h4, h5, h6
@@ -19,10 +39,12 @@ p
 
 
 #top, #top .navbar
-  background $darkBG
+  // background $darkBG
+  background transparent
   color white
-  -webkit-box-shadow 0 1px 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05)
-  box-shadow 0 1px 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05)
+  position relative
+  // -webkit-box-shadow 0 1px 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05)
+  // box-shadow 0 1px 3px rgba(0,0,0,0.15),0 0 0 1px rgba(0,0,0,0.05)
 
 
 #top
@@ -59,11 +81,22 @@ p
 
 
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse, .navbar-default .navbar-form
-  border-color black
+  // border-color black
 
+.navbar-collapse.collapse
+  border-bottom 1px solid rgba(255,255,255,0.05)
+
+button.navbar-toggle
+  border 0
+
+  &:hover
+    background transparent
+
+  span.sr-only
+    color white !important
 
 #top .navbar-nav > .active > a, #top .navbar-nav > li > a:hover, #top .navbar-default .navbar-nav>.open>a, #top .navbar-default .navbar-nav>.open>a:hover, #top .navbar-default .navbar-nav>.open>a:focus
-  background rgba(0,0,0,0.2)
+  // background rgba(0,0,0,0.2)
 
 
 #top .dropdown-menu>li>a:hover, #top .dropdown-menu>li>a:focus
@@ -131,7 +164,7 @@ section#title
   h1
     margin-bottom 10px
     font-size 22px
-  
+
   h3
     opacity 0.75
     font-size 16px
@@ -147,7 +180,7 @@ ul.logos
   list-style none
   margin-bottom 50px
 
-  li 
+  li
     display inline
 
     img
@@ -192,7 +225,7 @@ ul.social-links
 
 .faq
   margin-top 50px
-  
+
   h4
     margin-bottom 10px
 
@@ -221,15 +254,16 @@ ul.social-links
 
 
 #home-image
-  background #1a1a1a
+  // background #1a1a1a
   color white
-  padding 150px 0
-  padding-bottom 160px
-  background url("/images/startup-meeting_bg.jpg") no-repeat center center fixed
-  -webkit-background-size cover
-  -moz-background-size cover
-  -o-background-size cover
-  background-size cover
+  padding 20px 0
+  padding-bottom 100px
+  border-bottom 1px solid #E5E5E5
+  // background url("/images/startup-meeting_bg.jpg") no-repeat center center fixed
+  // -webkit-background-size cover
+  // -moz-background-size cover
+  // -o-background-size cover
+  // background-size cover
 
   &.video
     background rgba(25,25,25,0.7)
@@ -239,12 +273,16 @@ ul.social-links
     font-weight 800
 
   h3
+    opacity .85
     line-height 35px
-    margin-top 20px
-    font-size 20px
+    margin-top 15px
+    font-size 15px
 
   .fa
     margin-right 10px
+
+  img
+    width: 100%
 
 
 .btn-wesavvy
@@ -258,9 +296,9 @@ ul.social-links
 
 #signup
   margin 0px
-  margin-top 80px
-  margin-bottom -160px
-  background rgba(25,25,25,0.5)
+  margin-top 40px
+  // margin-bottom -160px
+  // background rgba(25,25,25,0.5)
 
   form
     margin-bottom 30px
@@ -288,11 +326,11 @@ ul.social-links
 
   i.fa
     font-size 60px
-  
+
   h4
     margin-top 30px
     margin-bottom 10px
-  
+
   p
     margin-top 0px
     font-size 12px
@@ -301,8 +339,8 @@ ul.social-links
   position relative
   z-index 20
   color $darkBG
-  background #F2F2F2
-  border-top 1px solid #D5D5D5
+  background #FFFFFF
+  border-top 1px solid #E5E5E5
 
   blockquote
     color $darkBG
@@ -351,19 +389,19 @@ div.people
 
 
 #footer-copy
-  background #0E121C
+  background #fff
   padding 30px 0
   padding-top 40px
   text-align justify
 
   small
     font-size 12px
-    color rgba(255,255,255,0.50)
+    color #999999
     margin-bottom 20px
     display block
 
     a
-      color white
+      color #999999
 
 
 ul.nav-tabs
@@ -376,3 +414,19 @@ ul.nav-tabs
     background transparent
     border 0px
     border-bottom 3px solid yellow
+
+
+section.app-feature1
+  background white
+  img
+    width 100%
+
+  h1
+    font-size: 23px;
+  p
+    font-size: 16px;
+    line-height: 28px;
+    color: #4d5a69;
+
+.second
+  background #F4F4F4 !important

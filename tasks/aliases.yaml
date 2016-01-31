@@ -4,7 +4,7 @@ default:
 serve:
   - clean:server
   - jade
-  - stylus 
+  - stylus
   - autoprefixer
   - connect:server
   - watch
@@ -12,14 +12,14 @@ serve:
 build:
   - clean:build
   - jade
-  - stylus 
+  - stylus
   - autoprefixer
   - copy:dist
   - useminPrepare
   - concat
   - cssmin
   - uglify
-  - imagemin
+  # - imagemin
   - svgmin
   - htmlmin
   - rev
@@ -28,7 +28,7 @@ build:
 clean-build:
   - clean:build
   - jade
-  - stylus 
+  - stylus
   - autoprefixer
   - copy:dist
   - useminPrepare
@@ -43,7 +43,7 @@ clean-build:
 publish:
   - clean:build
   - jade
-  - stylus 
+  - stylus
   - autoprefixer
   - copy:dist
   - useminPrepare

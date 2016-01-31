@@ -1,7 +1,7 @@
 extends /layouts/_homepage
 
 block head
-  title Idea Starter - Bringing Future Innovators Together
+  title PopCard - Bringing Future Innovators Together
 
 block content
 
@@ -9,48 +9,17 @@ block content
   section#home-image
     .container
       .row
-        .col-md-10.col-md-offset-1.text-center
-          h1 Bringing Innovators Together
+        .col-md-7.text-center
+          h1 PopCard - Payments that Pop!
           h3(style='margin-bottom:30px')
-            | We are bringing passionate innovators together from all backgrounds to 
-            br 
-            | build the 'next big thing'.
-          //- 
-            <- div
-              i.fa.fa-calendar
-              span Friday, April 24 - 26, 2015
-            div(style='margin-top:10px')
-              i.fa.fa-map-marker
-              span The Treehouse, Dublin 7
-            div(style='margin-top:40px')
-              a(href='https://www.eventbrite.ie/e/idea-starter-hackathon-weekend-tickets-16389515482' title='Get tickets on Eventbrite' target='_blank').btn.btn-lg.btn-wesavvy 
-                i.fa.fa-ticket
-                span Get Tickets
-              a(href='hackathon.html', style='margin-left:10px').btn.btn-lg.btn-success 
-                i.fa.fa-info-circle
-                span Learn More
-
-    //-
-      <- section#quick-links
-      .container
-        .row
-
-          .col-md-8.col-md-offset-2.text-center
-            i.fa.fa-ticket
-            h4 Get Your Tickets
-            p Grab your ticket while they last. Tickets are limited.
-             br
-             | The cost of your ticket partly covers all the food provided throughout the weekend.
+            | PopCard is the revolutionary new way to instantly create digital charge cards on demand. The app gives users total freedom to generate as many PopCards as they want, to be used just like a regular card.
             br
-            div(style="width:100%; text-align:left;")
-              iframe(src="//eventbrite.ie/tickets-external?eid=16389515482&amp;ref=etckt" frameborder="0" height="640" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true")
-
-    // #signup
-  
-    section#signup.text-center
-      .container
-        .row
-          .col-md-8.col-md-offset-2
+            br 
+            | Make a PopCard for yourself, or send to a friend or family member. 
+            br
+            br
+            | Pay online, or onsite with your NFC-enabled device. It's up to you.
+          section#signup
             form(action='http://marketing.identitysquare.com/t/i/s/jrwkd/', method='post')
               .row
                 .col-md-8.col-md-offset-2
@@ -58,8 +27,25 @@ block content
                     input.form-control(type='text', name='cm-jrwkd-jrwkd', placeholder='Enter Your Email Address...')
                     span.input-group-btn
                       button.btn.btn-wesavvy(type='submit') Join Network
-            p 
-              | Join our multidisciplinary startup network to inspire, educate and empower individuals, teams and communities. 
-              | Share ideas, form teams, get mentorship and launch successful startups.
-          
+        .col-md-5
+          img(src='https://stripe.com/img/home/heros/mobile/phones@2x.png')
+        
+  
+  section.app-feature1
+    .container
+      .row
+        .col-md-5
+          img(src='https://stripe.com/img/checkout/marketing/2checkouts@2x.png')
+        .col-md-5.col-md-offset-1.text-center
+          h1 Always improving
+          p You don't have to be an expert in server hardware to build a website—and you shouldn't have to be an expert in payments to build a business. By using Checkout, you have a team of Stripe engineers and designers continually working to refine your flow and optimize your funnel.
 
+  section.app-feature1.second
+    .container
+      .row
+        .col-md-5.col-md-offset-1.text-center
+          h1 Always improving
+          p You don't have to be an expert in server hardware to build a website—and you shouldn't have to be an expert in payments to build a business. By using Checkout, you have a team of Stripe engineers and designers continually working to refine your flow and optimize your funnel.
+        .col-md-5
+          img(src='https://stripe.com/img/checkout/marketing/2checkouts@2x.png')
+                    
