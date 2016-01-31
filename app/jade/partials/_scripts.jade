@@ -4,22 +4,6 @@ script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js')
 // Additional scripts specific to a particular page
 block scripts
     
-// build:js scripts/main.js
-script(src='scripts/tubular.js')
-script(src='scripts/main.js')
-// endbuild
-
-// Facebook SDK
-div#fb-root
-script.
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=298616493681455&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-
 
 // Google Analytics
 script.
@@ -30,11 +14,3 @@ script.
         
   ga('create', 'UA-73138222-1', 'auto');
   ga('send', 'pageview');
-
-// Start of Zopim Live Chat Script
-script.
-  window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-  d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-  _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-  $.src='//v2.zopim.com/?2pnVWXCTpGPiYu8mAK2PajZIdPshW403';z.t=+new Date;$.
-  type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
